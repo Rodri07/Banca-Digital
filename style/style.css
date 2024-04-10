@@ -1,0 +1,128 @@
+ /* creamos una variable par cambiar el color del boton */
+ :root{
+    --primary: #db094c;
+    --dark: #000000;
+    --light: #ffffff;
+    --grey: #f5f5f5;
+  }
+
+/* Asignamos un estilo de fuente con poppig google fonts */
+body{
+    font-family: "Poppins", sans-serif;
+    /* font-weight: 400;
+    font-style: normal; */
+    color: var(--dark);
+  }
+
+.py-6{
+  padding-top: Srem;
+  padding-bottom: Srem;
+}
+
+  /* Agregamos un espacion en la parte de arriba en el navbar */
+  .navbar{
+    min-height: 90px;
+  }
+
+ .navbar .btn {
+  padding: .625rem 1.25rem !important;
+ }
+
+  /* asignamos el valor que creamos a nuestro boton */
+  .btn-primary{
+    background-color: var(--primary);
+    border-color: var(--primary);
+  }
+
+  /* asignamos el color de nuestro hover */
+  .btn-primary:hover{
+    background-color: var(--primary);
+    border-color: var(--primary);
+  }
+
+  .btn{
+    padding: 1rem;
+  }
+  .btn-light{
+    background-color: var(--light);
+    color: var(--primary);
+  }
+
+  .bg-light{
+    background-color: var(--grey) !important;
+  }
+  /* definimos el color de los textos de la clase text */
+  .text-primary{
+    color: var(--primary)!important;
+  }
+
+  /* definimos el color de nuestro espan */
+  .bg-primary{
+    background-color: var(--primary) !important;
+  }
+
+  /* separamos nuestro contenido de los bordes de la pagina */
+  .content{
+    max-width: 500px;
+  }
+
+  .cta-form{
+    max-width: 480px;
+  }
+
+  .cta-form .form-control{
+    min-height: 82px;
+  }
+
+  .cta-form .btn{
+    top: 12px;
+    right: 12px;
+  }
+
+ /* colocamos el mismo tamaño de nuestro navbar */
+  section{
+    height: 900px;
+  }
+
+
+  @media (max-width: 992px){
+    .navbar{
+      position: relative !important;
+    }
+    section{
+      height: unset;
+    }
+    .call-to-action img {
+      max-width: 100%;
+    }
+    .w-75{
+      width: 100% !important;
+    }
+  }
+
+  .navbar-toggler:focus{
+    box-shadow: none;
+  }
+
+  .step{
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+
+  .step::after{
+    content: '';
+    border-right: 1px solid var(--primary);
+    opacity: .2;
+    height: 60px;
+    position: absolute;
+    top: 34px;
+  }
+
+  .call-to-action{
+    border-radius: 50px;
+  }
+
+  .call-to-action img{
+    max-width: 280px;
+  }

@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- acceso al css de bootstrap online -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Acceso a estilos de letra popping google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <!-- estilo de nuestro css -->
+    <link rel="stylesheet" href="./style/style.css">
+
+    <title>Bootstrap demo</title>
+  </head>
+  <body>
+    <!-- contenedor #1 -->
+    <nav class="navbar navbar-expand-lg bg-body-transparent position-absolute w-100">
+        <div class="container">
+          <a class="navbar-brand fw-bold" href="#">Banca Digital <span class="text-primary">.</span></a>
+          <button class="navbar-toggler boorder-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars lead text-dark"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item d-flex">
+                <a class="nav-link align-self-center text-dark" aria-current="page" href="#">Personas</a>
+              </li>
+              <li class="nav-item d-flex">
+                <a class="nav-link align-self-center text-dark" href="#">Empresas</a>
+              </li>
+              <li class="nav-item d-flex">
+                <a class="nav-link align-self-center text-dark" href="#">Nosotros</a>
+              </li>
+              <li class="nav-item me-2 mb-3">
+                <a class="btn btn-primary" href="#">Iniciar Seción </a>
+              </li>
+              <li class="nav-item me-2">
+                <a class="btn btn-primary" href="#"> Descargar App</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- contenedor #2 -->
+      <section>
+        <div class="row g-0 h-100">
+            <div class="col-lg-6 d-flex">
+                <div class="content mx-auto align-self-center px-4 my-5">
+                    <small class="d-block text-primary mb-3"><span class="badge bg-primary me-2">Nuevo</span> Aquiero nuestra tarjeta de credito</small>
+                    <h1 class="display-4 fw-bold mb-4">La Mejor Banca Digital <span class="text-primary">.</span></h1>
+                    <p class="lead mb-4">Dile adiós a los bancos tradicionales y disfruta de todos los beneficios de un banco 100% digital.</p>
+                    <a href="#" class="btn btn-primary mb-5">Abre tu cuenta hoy</a>
+                    <div class="d-flex">
+                        <div class="d-flex me-4">
+                          <img src="./icon/logo-apples.svg" class="me-3">
+                          <div>
+                            <small>Consiguelo en</small>
+                            <p class="fw-bold mb-0">App Store</p>
+                          </div>
+                        </div>
+                        <div class="d-flex ">
+                          <img src="./icon/logo-playStore.svg" class="me-3">
+                          <div>
+                            <small>Disponible en</small>
+                            <p class="fw-bold mb-0">App Store</p>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 d-flex bg-light">
+              <div class="container mx-auto align-self-center px-4 my-5">
+                <img src="./img/Portada.png">
+              </div>
+            </div>
+
+        </div>
+      </section>
+
+      <!-- contenedor #3 -->
+      <section class="d-flex py-6">
+        <div class="container align-self-center">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="content mx-auto px-4 my-5" >
+                <img src="./img/Balances.png" class="img-fluid">
+              </div>
+            </div>
+            <div class="col-lg-6 d-flex">
+              <div class="align-self-center my-5 px-4">
+                <h1 class="display-4 fw-bold mb-5">Haz que crezca tu dinero<span class="text-primary">.</span></h1>
+                <ul class="list-unstyled">
+                  <li class="d-flex mb-4">
+                    <p class="text-primary lead fw-bold step">1</p>
+                    <div class="ms-3">                  
+                      <p class="lead fw-bold">Crea tu cuenta<span class="text-primary">.</span></p><p>Es muy sencillo, solamente ingresa tu celular y listo.</p>
+                    </div>
+                  </li>
+                  <li class="d-flex mb-4">
+                    <p class="text-primary lead fw-bold step">2</p>
+                    <div class="ms-3">                  
+                      <p class="lead fw-bold">Solicita tu tarjeta personalizada<span class="text-primary">.</span></p>
+                      <p>Selecciona el color que mas te guste para tu tarjeta, la enviaremos a tu domicilio.</p>
+                    </div>
+                  </li>
+                  <li class="d-flex mb-4">
+                    <p class="text-primary lead fw-bold">3</p>
+                    <div class="ms-3">                  
+                      <p class="lead fw-bold">Activa tu tarjeta y empieza a utilizarla<span class="text-primary">.</span></p><p>inicia sesión en la app e ingresa el numero de tarjeta.</p>
+                    </div>
+                  </li>
+              </ul>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contenedor #4 -->
+      <section class="d-flex py-6">
+        <div class="container align-self-center">
+          <div class="call-to-action bg-light">
+            <div class="row">
+              <div class="col-lg-7 d-flex">
+                <div class="align-self-center p-5">
+                  <h2 class="display-4 fw-bold mb-4">Manda y recibe pagos al instante<span class="text-primary">.</span></h2>
+                  <p class="lead mb-4">Tu dinero esta seguro en todo momento, puedes consultar todos los movimientos de tu cuenta directamente desde tu celular</p>
+                  <a class="btn btn-primary" href="#">Abre tu cuenta hoy</a>  
+                </div>                      
+              </div>
+              <div class="col-lg-5 d-flex">
+                <div class="align-self-center mx-auto p-5">
+                  <img src="./img/Movil.png" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contenedor #5 -->
+      <section class="d-flex py-5">
+        <div class="container align-self-center">
+          <h2 class="display-4 fw-bold mb-4">Educación Financiera<span class="text-primary">.</span></h2>
+          <p class="lead mb-5">Comienza a aprender con nuestros artículos</p>
+          <div class="row gx-5">
+            <div class="col-lg-4 py-4">
+              <a href="#" class="text-decoration-none">
+                <img src="./img/blog-2.jpg" class="img-fluid mb-4 call-to-action">
+                <div class="d-flex mb-4">
+                  <p class="flex-grow-1 text-dark mb-0">12 de Abril</p>
+                  <p class="text-dark">Créditos</p>
+                </div>
+                <p class="lead text-dark fw-bold mb-4">Que debes de saber antes de tramitar un credito hipotecario</p>
+                <p class="text-primary fw-bold">Leer más<i class="fas fa-arrow-right ms-2"></i></p>
+              </a>
+            </div>
+            <div class="col-lg-4 py-4">
+              <a href="#" class="text-decoration-none">
+                <img src="./img/blog-1.jpg" class="img-fluid mb-4 call-to-action">
+                <div class="d-flex mb-4">
+                  <p class="flex-grow-1 text-dark mb-0">12 de Abril</p>
+                  <p class="text-dark">Créditos</p>
+                </div>
+                <p class="lead text-dark fw-bold mb-4">Que debes de saber antes de tramitar un credito hipotecario</p>
+                <p class="text-primary fw-bold">Leer más<i class="fas fa-arrow-right ms-2"></i></p>
+              </a>
+            </div>
+            <div class="col-lg-4 py-4">
+              <a href="#" class="text-decoration-none">
+                <img src="./img/blog-3.jpg" class="img-fluid mb-4 call-to-action">
+                <div class="d-flex mb-4">
+                  <p class="flex-grow-1 text-dark mb-0">12 de Abril</p>
+                  <p class="text-dark">Créditos</p>
+                </div>
+                <p class="lead text-dark fw-bold mb-4">Que debes de saber antes de tramitar un credito hipotecario</p>
+                <p class="text-primary fw-bold">Leer más<i class="fas fa-arrow-right ms-2"></i></p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contendor #6 -->
+      <section class="d-flex pt-5 pb-0 h-100">
+        <div class="container align-self-center">
+          <div class="bg-primary text-center text-light p-5 rounded w-75 mx-auto mb-5">
+            <h2 class="display-4 fw-bold">Abre tu cuenta hoy</h2>
+            <p class="lead">Es rápido y sencillo, solo te tomará un minuto</p>
+            <div class="cta-form position-relative mx-auto d-none d-md-block">
+              <input class="form-control" type="email" placeholder="Correo Electrónico">
+              <button type="submit" class="btn btn-primary position-absolute">Abre tu cuenta hoy</button>
+            </div>
+            <div class="d-md-none">
+              <input class="form-control mb-3" type="email" placeholder="Correo Electrónico">
+              <button type="submit" class="btn btn-light w-100">Abre tu cuenta hoy</button>
+            </div>
+          </div>
+
+          <div class="row mb-3">
+            <div class="col-lg-3 col-ms-6 my-4">
+              <h2 class=" fw-bold mb-3">Productos</h2>
+              <ul class="list-unstyled">
+                <li class="mb-3"><a class="text-dark text-decoration-none" href="#">Tarjeta de crédito</a></li>
+                <li class="mb-3"><a class="text-dark text-decoration-none" href="#">Tarjeta de débito</a></li>
+                <li class="mb-3"><a class="text-dark text-decoration-none" href="#">Crédito hipotecario</a></li>  
+              </ul>
+            </div>
+            <div class="col-lg-3 col-ms-6 my-4">
+              <h2 class=" fw-bold mb-3">Empresa</h2>
+              <ul class="list-unstyled">
+                <li class="mb-3"><a class="text-dark text-decoration-none" href="#">Tarjeta de crédito</a></li>
+                <li class="mb-3"><a class="text-dark text-decoration-none" href="#">Tarjeta de débito</a></li>
+                <li class="mb-3"><a class="text-dark text-decoration-none" href="#">Crédito hipotecario</a></li>  
+              </ul>
+            </div>
+            <div class="col-lg-3 col-ms-6 my-4">
+              <h2 class=" fw-bold mb-3">Centro de Ayuda</h2>
+              <ul class="list-unstyled">
+                <li class="mb-3"><a class="text-dark text-decoration-none" href="#">Tarjeta de crédito</a></li>
+                <li class="mb-3"><a class="text-dark text-decoration-none" href="#">Tarjeta de débito</a></li>
+                <li class="mb-3"><a class="text-dark text-decoration-none" href="#">Crédito hipotecario</a></li>  
+              </ul>
+            </div>
+            <div class="col-lg-3 col-ms-6 my-4">
+              <h2 class=" fw-bold mb-3">Banca Digital</h2>
+              <ul class="list-unstyled">
+                <li class="mb-3">Av. Lincon de UUSS 234</li>
+                <li>
+                  <Ul class="list-inline">
+                    <li class="me-3"><a href="" class="lead text-dark"><i class="fab fa-facebook"></i></a> Facebook</li>
+                    <li class="me-3"><a href="" class="lead text-dark"><i class="fab fa-instagram"></i></a> Instagram</li>
+                    <li class="me-3"><a href="" class="lead text-dark"><i class="fab fa-linkedin"></i></a> Linkedin</li>
+                  </Ul>
+                </li>  
+              </ul>
+            </div>
+          </div>
+
+          <div class="border-top py-4">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <small>2021. Banco Digital. Todos los derechos reservados</small>
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <ul class="list-inline text-lg-end">
+                  <li class="list-inline-item"><a href="" class="text-dark text-decoration-none"><small>Terminos y condiciones</small></a></li>
+                  <li class="list-inline-item"><a href="" class="text-dark text-decoration-none"><small>Aviso de privacidad</small></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!-- acceso al js de bootstrap online -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+  </body>
+</html>
